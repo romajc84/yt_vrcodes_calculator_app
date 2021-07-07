@@ -4,7 +4,7 @@ import 'package:yt_vrcodes_calculator_app/controllers/expression_controller.dart
 
 // This button represents the different buttons that are required in the calculator app
 class ValueButton extends StatelessWidget {
-  final String? val;
+  final String val;
 
   ValueButton(this.val);
   final ExpressionController controller = Get.find();
